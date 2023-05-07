@@ -1,13 +1,13 @@
 package main
 
 import (
+	"learning_graphql/graph"
 	"log"
 	"net/http"
 	"os"
 
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
-	"github.com/hafifamudi/learn_go_graphql/graph"
 )
 
 const defaultPort = "8080"
